@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "Caracol",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/08Caracol",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Teléfono",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "ytest assignments/09Telefono",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Videojuego",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/10Videojuego",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Cuenta Bancaria",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/18CuentaBancaria",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Editorial",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/19Editorial",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Levadura para Pizza",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/21LevaduraParaPizza",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Digitos Pares",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/22DigitosPares",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
