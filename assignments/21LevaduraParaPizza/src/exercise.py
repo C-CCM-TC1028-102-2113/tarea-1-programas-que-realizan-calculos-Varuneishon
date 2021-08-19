@@ -1,5 +1,13 @@
 def main():
     #escribe tu código abajo de esta línea
+    
+import math
+
+n = int(input("Dame la harina en ramo: "))
+
+p = n/20
+
+print("Necesitas estos gramos de levadura", p)
     pass
 
 
