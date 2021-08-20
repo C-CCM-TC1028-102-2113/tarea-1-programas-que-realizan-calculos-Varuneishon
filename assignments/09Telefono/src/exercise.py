@@ -9,6 +9,7 @@ t2 = float(input("Dame número de megas : " ))
 t3 = int(input("Dame número de minutos : " ))
 
 tf = (t1+t2+t3)*0.8
+tf = round(tf,2)
 
 print("El costo mensual es:" ,tf)
     pass
