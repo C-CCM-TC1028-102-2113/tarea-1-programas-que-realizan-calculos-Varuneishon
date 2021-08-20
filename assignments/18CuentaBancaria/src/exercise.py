@@ -11,6 +11,7 @@ x4 = int(input("Dame el numero de cheques: "))
 s = x1+x2-x3-(x4*13)
 
 sf=s*0.925
+sf=round(sf,5)
 
 print("El saldo final de la cuenta es", sf)
     pass
