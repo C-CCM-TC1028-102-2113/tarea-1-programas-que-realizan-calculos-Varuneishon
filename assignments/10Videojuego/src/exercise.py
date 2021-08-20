@@ -10,7 +10,7 @@ p1 = v1*1000
 p2 = v2*350
 pt = p1+p2
 
-print("El costo mensual es:" ,pt)
+print("El total de la compra es:" ,pt)
    pass
 
 
