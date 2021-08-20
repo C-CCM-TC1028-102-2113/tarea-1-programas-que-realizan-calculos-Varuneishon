@@ -3,7 +3,7 @@ def main():
     
 import math
 
-n = int(input("Dame la harina en ramo: "))
+n = int(input("Dame la harina en gramos : "))
 
 p = n/20
 
