@@ -1,7 +1,6 @@
 def main():
     #escribe tu código abajo de esta línea
     #Leer los datos
-    import math
 print("Este programa calcula el costo total de un plan mensual" )
 
 t1 = int(input("Dame número de mensajes : "))
