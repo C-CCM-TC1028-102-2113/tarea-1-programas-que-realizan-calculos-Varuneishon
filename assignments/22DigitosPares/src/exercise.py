@@ -18,10 +18,10 @@ try :
         
         while (i <= l) :
            
-            digit = int (n % 10)
-            if (digit == 0) :
+            d = int (n % 10)
+            if (d == 0) :
                 zero_count +=1
-            elif (digit %2 == 0) :
+            elif (d %2 == 0) :
                 even_count +=1
             else :
                 odd_count +=1
