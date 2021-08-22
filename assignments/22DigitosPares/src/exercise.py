@@ -12,23 +12,23 @@ try :
         n = int (n)
         
         i = 1
-        even_count = 0
-        odd_count = 0
-        zero_count = 0
+        e = 0
+        o = 0
+        z = 0
         
         while (i <= l) :
            
             d = int (n % 10)
             if (d == 0) :
-                zero_count +=1
+                z +=1
             elif (d %2 == 0) :
-                even_count +=1
+                e +=1
             else :
-                odd_count +=1
+                o +=1
             i += 1
             n /= 10
             
-        print (f"El número de dígitos pares es:  {even_count}\n")
+        print (f"El número de dígitos pares es:  {e}\n")
     
 
     else :
