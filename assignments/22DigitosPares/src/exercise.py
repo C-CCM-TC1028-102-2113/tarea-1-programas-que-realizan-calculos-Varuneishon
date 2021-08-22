@@ -1,6 +1,7 @@
 def main():
     #escribe tu código abajo de esta línea
-    num = (input('Dame un número: '))
+   
+num = (input('Dame un número: '))
 
 num_length = int (len(num))
 
