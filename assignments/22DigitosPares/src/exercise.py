@@ -1,24 +1,24 @@
 def main():
     #escribe tu código abajo de esta línea
    
-num = (input('Dame un número: '))
+n = (input('Dame un número: '))
 
-num_length = int (len(num))
+l = int (len(n))
 
 try :
     
-    if (num_length == 4) :
+    if (l == 4) :
         
-        num = int (num)
+        n = int (n)
         
         i = 1
         even_count = 0
         odd_count = 0
         zero_count = 0
         
-        while (i <= num_length) :
+        while (i <= l) :
            
-            digit = int (num % 10)
+            digit = int (n % 10)
             if (digit == 0) :
                 zero_count +=1
             elif (digit %2 == 0) :
@@ -26,7 +26,7 @@ try :
             else :
                 odd_count +=1
             i += 1
-            num /= 10
+            n /= 10
             
         print (f"El número de dígitos pares es:  {even_count}\n")
     
