@@ -1,6 +1,6 @@
 def main():
     #escribe tu código abajo de esta línea
-   
+
 n = (input('Dame un número: '))
 
 l = int (len(n))
