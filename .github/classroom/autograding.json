@@ -13,7 +13,7 @@
     {
       "name": "Teléfono",
       "setup": "sudo -H pip3 install pytest",
-      "run": "ytest assignments/09Telefono",
+      "run": "pytest assignments/09Telefono",
       "input": "",
       "output": "",
       "comparison": "included",
